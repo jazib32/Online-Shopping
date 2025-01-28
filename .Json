@@ -1,0 +1,38 @@
+{
+  "users": {
+    "user1": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "address": "123 Main St, Springfield",
+      "cart": {
+        "productId1": 2,
+        "productId2": 1
+      }
+    }
+  },
+  "products": {
+    "productId1": {
+      "name": "Laptop",
+      "description": "High performance laptop",
+      "price": 999.99,
+      "stock": 50,
+      "imageURL": "http://example.com/laptop.jpg"
+    },
+    "productId2": {
+      "name": "Smartphone",
+      "description": "Latest model smartphone",
+      "price": 499.99,
+      "stock": 100,
+      "imageURL": "http://example.com/smartphone.jpg"
+    }
+  },
+  "orders": {
+    "orderId1": {
+      "userId": "user1",
+      "productIds": ["productId1", "productId2"],
+      "totalPrice": 1499.98,
+      "status": "pending",
+      "date": "2025-01-19"
+    }
+  }
+}
